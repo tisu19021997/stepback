@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+    <div id="sketch" style="display: flex; flex-direction: column; gap: 10px;">
+      <div id="sketch-canvas"></div>
+      
+      <div id="params" style="display: flex; gap: 20px;">
+        <div id="col-1" style="display: flex; flex-direction: column; gap: 5px;">
+          <span id="imgUploader-label">Upload your image</span>
+          <span id="imgUploader"></span>
+          
+          <span id="saveBtn"></span>
+        </div>
+        
+        <div id="col-1" style="display: flex; flex-direction: column; gap: 5px;">
+          <span id="circleColor-label">Primary color</span>
+          <span id="circleColor"></span>
+          
+          <span id="rectColor-label">Secondary color</span>
+          <span id="rectColor"></span>
+        </div>
+
+        <div id="col-2" style="display: flex; flex-direction: column; gap: 5px;">
+          <span id="resolution-label" style="height: 25px;"></span>
+          <span id="resolution"></span>
+          
+          <span id="colorScheme-label" style="height: 25px;">Color scheme</span>
+          <span id="colorScheme"></span>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
